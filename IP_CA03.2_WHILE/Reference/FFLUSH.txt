@@ -1,0 +1,7 @@
+fflush - flushes (clears) the buffer/stream
+stdin  - input stream
+
+c = getchar();  //get first input
+fflush(stdin);  //flush first input
+c = getchar();  //get input again
+
