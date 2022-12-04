@@ -1,0 +1,1 @@
+Original Papers and Markings (Scanned PDFs) are located in Resources.rar
