@@ -1,4 +1,3 @@
-//5.20
 #include <stdio.h>
 
 int main()
@@ -25,7 +24,7 @@ int main()
 		printf("\n");
 	}
 	
-	printf("	\nRed Led Bulb Positions :  ");
+	printf("\nRed Led Bulb Positions :  ");
 	for (i=0; i<4; i++)
 	{
 		for (j=0; j<4; j++)
@@ -39,4 +38,4 @@ int main()
 	
 	return 0;
 }
-//5.30
+//10

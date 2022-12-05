@@ -1,4 +1,3 @@
-//4.40
 #include <stdio.h>
 
 struct Data {
@@ -59,4 +58,4 @@ int main()
 	
 	return 0;
 }
-//5.20
+//40

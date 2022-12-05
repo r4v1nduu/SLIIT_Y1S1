@@ -1,4 +1,3 @@
-//4.15
 #include <stdio.h>
 
 int main()
@@ -43,4 +42,4 @@ int main()
 	
 	return 0;
 }
-//4.35
+//20
