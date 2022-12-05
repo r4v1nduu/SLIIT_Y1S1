@@ -71,6 +71,8 @@ int main()
 	
 	printf("\nEmployee No. %s's attendance : %d", empno[1], count);
 	
+	printf("Test01");
+	
 	fclose(att2);
 	
 	return 0;
