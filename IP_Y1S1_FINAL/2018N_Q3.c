@@ -1,6 +1,42 @@
 #include <stdio.h>
 #include <assert.h>
 
+float calDiscount(int time, float totAmount);
+void displayGift(float finalTot);
+void testCalDiscount();
+
+int main()
+{
+	testCalDiscount();
+	
+	int hour;
+	float amount, finalamount;
+	
+	while(1) 
+	{
+		printf("Enter the time (Only the Hour) (16-22) : ");
+		scanf("%d", &hour);
+		
+		if (hour>=16 && hour<=22)
+		{
+			break;
+		}
+		printf("Invalid Time!\n");
+	}
+	
+	printf("Enter total amount : ");
+	scanf("%f", &amount);
+	
+	finalamount=calDiscount(hour, amount);
+	printf("\n\nFinal Amount : %.2f", finalamount);
+	
+	displayGift(finalamount);
+	
+	return 0;
+}
+
+
+
 float calDiscount(int time, float totAmount)
 {
 	if (time>=16 && time<=19)
@@ -39,36 +75,5 @@ void displayGift(float finalTot)
 void testCalDiscount() {
 	assert (calDiscount(16, 5000)==4500.0);
 	assert (calDiscount(20, 2500)==2275.0);
-}
-
-
-int main()
-{
-	testCalDiscount();
-	
-	int hour;
-	float amount, finalamount;
-	
-	while(1) 
-	{
-		printf("Enter the time (Only the Hour) (16-22) : ");
-		scanf("%d", &hour);
-		
-		if (hour>=16 && hour<=22)
-		{
-			break;
-		}
-		printf("Invalid Time!\n");
-	}
-	
-	printf("Enter total amount : ");
-	scanf("%f", &amount);
-	
-	finalamount=calDiscount(hour, amount);
-	printf("\n\nFinal Amount : %.2f", finalamount);
-	
-	displayGift(finalamount);
-	
-	return 0;
 }
 //25
