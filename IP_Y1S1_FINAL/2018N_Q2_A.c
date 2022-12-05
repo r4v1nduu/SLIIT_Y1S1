@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-struct Data {
+struct data {
 	int accno, type;
 	char name[20];
 	double amount;
