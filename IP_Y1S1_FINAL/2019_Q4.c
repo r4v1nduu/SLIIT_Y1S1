@@ -7,7 +7,8 @@ int main()
 	FILE *loyal;
 	
 	loyal=fopen("loyalty.dat", "a+"); //Can use both r++ and a++
-	if (loyal==NULL) {
+	if (loyal==NULL) 
+	{
 		printf("Error opening the file!\n");
 		return -1;
 	}
@@ -21,19 +22,23 @@ int main()
 	{
 		fscanf(loyal, "%d %s", &temp, &tempname);
 			
-		if (temp==num) {
+		if (temp==num) 
+		{
 			check=1;
 			break;
 		}
-		else {
+		else 
+		{
 			check=0;
 		}
 	}
 		
-	if (check==1) {
+	if (check==1) 
+	{
 		printf("Loyalty Number Already Exists!\n");
 	}
-	else {
+	else 
+	{
 		fprintf(loyal, "%d\t%s\n", num, name);
 	}
 		
