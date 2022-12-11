@@ -35,6 +35,8 @@ int main()
 		}
 	}
 	
+	printf("\n\nTotal Student Count : %d", i);
+
 	printf("\n\nCourse Name\t\t\t\t Student Count\t\t Total Fee\n");
 	printf("\nDiploma in Hospitality Management\t %d\t\t\t %.2lf", h, 1500.00*h);
 	printf("\nDiploma in Marketing\t\t\t %d\t\t\t %.2lf",m , 2000.00*m);
