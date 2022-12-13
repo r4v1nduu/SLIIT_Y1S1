@@ -24,6 +24,7 @@ int main()
 			
 		if (temp==num) 
 		{
+			printf("Loyalty Number Already Exists!\n");
 			check=1;
 			break;
 		}
@@ -33,11 +34,7 @@ int main()
 		}
 	}
 		
-	if (check==1) 
-	{
-		printf("Loyalty Number Already Exists!\n");
-	}
-	else 
+	if (check==0) 
 	{
 		fprintf(loyal, "%d\t%s\n", num, name);
 	}
