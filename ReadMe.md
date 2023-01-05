@@ -3,6 +3,7 @@
 **FFLUSH REFERENCE**
 
 **fflush** - *flushes (clears) the buffer/stream*
+
 **stdin**  - *input stream*
 
 - `c = getchar();`  *//get first input*
@@ -34,6 +35,7 @@
 	- gdb --version
 ---
 Downloads : 
+
 [Dev C++ Dark Version](https://github.com/Embarcadero/Dev-Cpp)
 
 [Fira Code Font](https://github.com/tonsky/FiraCode)
