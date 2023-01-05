@@ -1,6 +1,7 @@
 - Original Papers and Markings (Scanned PDFs) are located in Resources.rar
 
 **FFLUSH REFERENCE**
+
 **fflush** - *flushes (clears) the buffer/stream*
 **stdin**  - *input stream*
 
@@ -34,6 +35,7 @@
 ---
 Downloads : 
 [Dev C++ Dark Version](https://github.com/Embarcadero/Dev-Cpp)
+
 [Fira Code Font](https://github.com/tonsky/FiraCode)
 
 
