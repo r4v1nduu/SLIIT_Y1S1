@@ -1,4 +1,6 @@
-- Original Papers and Markings (Scanned PDFs) are located in Resources.rar
+_Original Papers and Markings (Scanned PDFs) are located in Resources.rar_
+
+---
 
 **FFLUSH REFERENCE**
 
@@ -9,7 +11,9 @@
 - `c = getchar();`  *//get first input*
 - `fflush(stdin);`  *//flush first input*
 - `c = getchar();`  *//get input again*
+
 ---
+
 ### Configure GCC compiler for Text Editors
 1. Downoad & Install [MSYS2](https://github.com/msys2/msys2-installer/releases/download/2022-12-16/msys2-x86_64-20221216.exe)
 3. Open MSYS2
@@ -33,18 +37,11 @@
 	- gcc --version
 	- g++ --version
 	- gdb --version
+
 ---
+
 Downloads : 
 
 [Dev C++ Dark Version](https://github.com/Embarcadero/Dev-Cpp)
 
-[Fira Code Font](https://github.com/tonsky/FiraCode)
 
-
-
-![GitHub repo size](https://img.shields.io/github/repo-size/BL4ckBU7N/SLIIT_Y1S1)
-![GitHub Discussions](https://img.shields.io/github/discussions/BL4ckBU7N/SLIIT_Y1S1)
-![GitHub contributors](https://img.shields.io/github/contributors/BL4ckBU7N/SLIIT_Y1S1)
-
-![GitHub Repo stars](https://img.shields.io/github/stars/BL4ckBU7N/SLIIT_Y1S1?style=social)
-![GitHub watchers](https://img.shields.io/github/watchers/BL4ckBU7N/SLIIT_Y1S1?style=social)
